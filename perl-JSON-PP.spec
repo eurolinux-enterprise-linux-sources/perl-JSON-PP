@@ -1,6 +1,6 @@
 Name:		perl-JSON-PP
 Version:	2.27202
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	JSON::XS compatible pure-Perl module
 License:	GPL+ or Artistic
 Group:		Development/Libraries
@@ -58,6 +58,9 @@ rm -rf %{buildroot}
 %{_mandir}/man3/JSON::PP::Boolean.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.27202-2
+- Mass rebuild 2013-12-27
+
 * Wed Mar 13 2013 Paul Howarth <paul@city-fan.org> - 2.27202-1
 - Update to 2.27202
   - Fix test failures due to hash iterator randomization in perl 5.17.6 onwards
